@@ -19,7 +19,7 @@
 email=nyundobaya2@gmail.com
 name=kalume
 message="added new code"
-gitremote="https://github.com/karisa537/Microsoft.git"
+gitremote="https://github.com/karisa537/test.git"
 echo 'Configuring git'
 git config --global --add user.email $email
 git config --global --add user.name $name
@@ -29,5 +29,5 @@ git status
 git commit -m "$message"
 echo $message
 git remote add origin $gitremote
-git pull origin $gitremote
+# git pull origin $gitremote
 git push origin master 
