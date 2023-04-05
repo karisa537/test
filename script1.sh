@@ -19,6 +19,7 @@
 email=nyundobaya2@gmail.com
 name=kalume
 message="added new code"
+git-remote="https://github.com/karisa537/Microsoft.git"
 echo 'Configuring git'
 git config --global --add user.email $email
 git config --global --add user.name $name
@@ -27,4 +28,4 @@ git add .
 git status
 git commit -m "$message"
 echo $message
-git 
+git remote add origin $git-remote
