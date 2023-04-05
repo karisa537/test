@@ -30,4 +30,4 @@ git commit -m "$message"
 echo $message
 git remote add origin $gitremote
 # git pull origin $gitremote
-git push origin master 
+git push origin master --force
