@@ -29,4 +29,4 @@ git status
 git commit -m "$message"
 echo $message
 git remote add origin $gitremote
-git push origin master
+git push origin master 
