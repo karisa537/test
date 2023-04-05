@@ -30,7 +30,7 @@ git commit -m "$message"
 # echo $message
 # git remote add origin $gitremote
 # # git pull origin $gitremote
-# echo script1.sh >> .gitignore
+echo script1.sh >> .gitignore
 # git rm --cached myscript.sh
 # git commit -m "Start ignoring script1.sh"
 git push origin master
