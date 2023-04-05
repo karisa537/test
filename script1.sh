@@ -16,18 +16,18 @@
 # git branch
 # git init
 # git branch karisa
-email=nyundobaya2@gmail.com
-name=kalume
-message="added new code"
+# email=nyundobaya2@gmail.com
+# name=kalume
+message="commented the script"
 gitremote="https://github.com/karisa537/test.git"
-echo 'Configuring git'
-git config --global --add user.email $email
-git config --global --add user.name $name
-git status
+# echo 'Configuring git'
+# git config --global --add user.email $email
+# git config --global --add user.name $name
+# git status
 git add .
-git status
+# git status
 git commit -m "$message"
 echo $message
-git remote add origin $gitremote
-# git pull origin $gitremote
+# git remote add origin $gitremote
+# # git pull origin $gitremote
 git push origin master
