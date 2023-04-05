@@ -27,3 +27,4 @@ git add .
 git status
 git commit -m "$message"
 echo $message
+git 
